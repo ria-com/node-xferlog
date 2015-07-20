@@ -1,0 +1,20 @@
+{
+  "name": "xferlog",
+  "version": "0.0.1",
+  "description": "xferlog parser",
+  "author": {
+    "name": "Oleg Cherniy",
+    "email": "oleg.cherniy@gmail.com"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "jasmine-node": "*"
+  },
+  "scripts": {
+    "test": "node ./node_modules/jasmine-node/lib/jasmine-node/cli.js spec"
+  },
+  "engines": {
+    "node": ">=0.11.x"
+  }
+}
